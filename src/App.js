@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Hello from './components/Hello'
-import Learning from './components/learning';
+import RegistarConta from './components/form_register_conta'
+import ListaDeTreino from './components/Lista';
 import './components/learning.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 function App() {
   return (
-    <div className="">
+    <div className="App">
       <header className="App-header">
-        
-      <Hello>  </Hello>
-      <Learning></Learning>
-
+      <RegistarConta/>
+      <ListaDeTreino/>
       </header>
     </div>
   );
