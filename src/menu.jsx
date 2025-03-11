@@ -17,7 +17,7 @@ export default class Menu extends Component {
         <div>
           <Navbar bg="dark" data-bs-theme="dark">
             <Container>
-              <Navbar.Brand><Link to="/App">PTS</Link></Navbar.Brand>
+              <Navbar.Brand><Link as={Link} to="/App">PTS</Link></Navbar.Brand>
               <Nav className="mr-auto">
                 <Nav.Link as={Link} to="/App">Home</Nav.Link>
                 <Nav.Link as={Link} to="/about">About Us</Nav.Link>

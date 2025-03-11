@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import RegistarConta from './components/form_register_conta'
+import RegistarConta from './components/registerForm'
 import ListaDeTreino from './components/Lista';
-import './components/learning.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
